@@ -1,0 +1,33 @@
+{
+  "name": "rollup-plugin-map-import-id",
+  "version": "0.0.4",
+  "description": "a plugin map import id",
+  "main": "dist/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "./dist"
+  ],
+  "dependencies": {
+    "rollup": "^3.28.0"
+  },
+  "peerDependencies": {
+    "rollup": "^3.28.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/node": "^20.5.0",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  }
+}
